@@ -11,6 +11,7 @@ public class main extends LinearOpMode {
     모터는 클레스를 전달 하는 것이 아닌 해당 모터의 설정명을 인자로 전달하도록 합니다.
      */
     DiverController DC = new DiverController("LeftUp", "RightUp", "LeftDown", "RightDown");
+    ...
 }
 ...
 ```
