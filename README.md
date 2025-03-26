@@ -4,8 +4,7 @@
 public FTC SDK for INTO THE DEEP (2024-2025)를 기반으로 제작되었습니다.
 
 ## 환영합니다!
-이 GitHub 저장소엔 *FIRST* Tech Challenge의 경쟁 로봇 제어중
-DriverController를 제어하는 소스 코드가 들어 있습니다.
+이 GitHub 저장소엔 *FIRST* Tech Challenge의 경쟁 로봇 제어중 DriverController를 제어하는 소스 코드가 들어 있습니다.
 
 이 SDK를 사용하려면 전 프로젝트를 컴퓨터에 다운로드하여 사용하시거나,
 
