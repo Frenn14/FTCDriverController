@@ -8,7 +8,9 @@ public FTC SDK for INTO THE DEEP (2024-2025)를 기반으로 제작되었습니�
 
 이 SDK를 사용하려면 전 프로젝트를 컴퓨터에 다운로드하여 사용하시거나,
 
-[DriverController-master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode](/Users/gimminjae/Documents/DataFold/코딩/FTC/DriverController-master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode)에 위치한 코드 파일을 다운로드하여 사용하세요
+[DriverController-master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode](DriverController-master/TeamCode/src/main/java/org/firstinspires/ftc/teamcode)
+
+에 위치한 코드 파일을 다운로드하여 사용하세요
 
 ## 요구 사항
 이 Android Studio 프로젝트를 사용하기 위해서는 Android Studio Ladybug(2024.2) 이상이 필요합니다.
