@@ -28,12 +28,18 @@ public class DiverController{
     private DcMotor LeftDownMotor   = null;
     private DcMotor RightDownMotor  = null;
 
-    public DiverController(HardwareMap hardwareMap, String leftUp) {
-        this.LeftUpMotor = hardwareMap.get(DcMotor.class, leftUp);
+    public DiverController(HardwareMap hardwareMap, String leftUp, String rightUp, String leftDown, String rightDown) {
+        this.LeftUpMotor        = hardwareMap.get(DcMotor.class, leftUp);
+        this.RightUpMotor       = hardwareMap.get(DcMotor.class, rightUp);
+        this.LeftDownMotor      = hardwareMap.get(DcMotor.class, leftDown);
+        this.RightDownMotor     = hardwareMap.get(DcMotor.class, rightDown);
     }
 
 
     public void Front() {
         LeftUpMotor.setPower(1.0);
+        RightUpMotor.setPower(1.0);
+        LeftDownMotor.setPower(1.0);
+        RightDownMotor.setPower(1.0);
     }
 }
